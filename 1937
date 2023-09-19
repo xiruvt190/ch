@@ -5,20 +5,96 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: aws, server: 65.8.234.228, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 2, server: 108.138.92.59, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 3, server: 99.84.190.162, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 4, server: 65.9.134.192, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 5, server: 18.154.173.99, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 6, server: 54.230.229.9, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 7, server: 52.222.200.15, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 8, server: 54.230.207.221, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 9, server: 204.246.175.72, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 10, server: 205.251.249.195, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 11, server: 204.246.175.145, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 12, server: 52.85.65.215, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 13, server: 205.251.249.23, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
-  - {name: aws 14, server: 108.157.193.225, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws, server: 18.65.165.46, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 2, server: 18.238.195.86, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 3, server: 18.155.59.36, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 4, server: 52.222.206.103, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 5, server: 52.222.227.132, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 6, server: 143.204.122.211, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 7, server: 216.137.39.76, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 8, server: 13.35.255.184, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 9, server: 18.238.182.172, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 10, server: 13.225.78.237, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 11, server: 99.86.131.234, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 12, server: 99.84.228.140, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 13, server: 204.246.164.111, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 14, server: 108.139.6.70, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 15, server: 18.154.137.32, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 16, server: 65.9.26.223, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 17, server: 99.86.224.118, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 18, server: 13.32.105.202, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 19, server: 13.32.16.137, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 20, server: 13.32.203.28, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 21, server: 65.9.188.157, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 22, server: 18.65.16.126, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 23, server: 205.251.212.17, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 24, server: 99.84.96.123, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 25, server: 54.230.174.126, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 26, server: 52.84.67.233, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 27, server: 99.84.79.143, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 28, server: 99.84.77.178, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 29, server: 99.84.185.103, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 30, server: 3.163.155.8, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 31, server: 54.230.204.201, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 32, server: 204.246.190.174, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 33, server: 54.230.204.82, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 34, server: 52.222.227.18, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 35, server: 52.222.218.53, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 36, server: 99.86.227.11, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 37, server: 18.244.129.69, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 38, server: 54.230.173.51, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 39, server: 52.85.71.100, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 40, server: 52.84.181.189, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 41, server: 54.239.152.61, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 42, server: 54.230.158.13, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 43, server: 99.84.179.243, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 44, server: 65.8.250.6, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 45, server: 143.204.188.57, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 46, server: 205.251.249.186, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 47, server: 13.35.118.166, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 48, server: 65.8.188.164, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 49, server: 65.8.19.202, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 50, server: 204.246.188.4, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 51, server: 205.251.249.111, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 52, server: 13.249.181.35, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 53, server: 18.172.229.225, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 54, server: 13.33.137.106, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 55, server: 108.139.243.140, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 56, server: 99.84.143.88, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 57, server: 13.32.120.10, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 58, server: 205.251.215.91, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 59, server: 54.230.112.57, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 60, server: 18.239.46.136, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 61, server: 54.230.248.226, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 62, server: 205.251.216.249, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 63, server: 108.138.220.52, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 64, server: 204.246.175.130, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 65, server: 216.137.63.96, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 66, server: 204.246.175.80, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 67, server: 54.230.203.178, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 68, server: 13.224.131.118, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 69, server: 52.222.137.115, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 70, server: 18.244.143.63, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 71, server: 65.9.55.99, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 72, server: 13.35.239.209, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 73, server: 205.251.249.83, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 74, server: 54.192.67.166, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 75, server: 18.64.254.40, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 76, server: 13.226.31.44, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 77, server: 205.251.249.66, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 78, server: 205.251.249.220, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 79, server: 13.225.202.32, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 80, server: 18.165.61.218, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 81, server: 18.165.245.167, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 82, server: 54.230.200.0, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 83, server: 65.8.190.164, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 84, server: 13.225.202.63, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 85, server: 108.157.113.93, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 86, server: 54.230.102.220, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 87, server: 54.230.254.75, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 88, server: 108.157.93.200, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 89, server: 13.224.154.22, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
+  - {name: aws 90, server: 204.246.169.233, port: 443, type: vmess, uuid: e5d0ec1e-ad6b-4b56-922f-79daad0904c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /e5d0ec1e-ad6b-4b56-922f-79daad0904c5, headers: {Host: d2ugn9yutefgle.cloudfront.net}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -39,6 +115,82 @@ proxy-groups:
       - aws 12
       - aws 13
       - aws 14
+      - aws 15
+      - aws 16
+      - aws 17
+      - aws 18
+      - aws 19
+      - aws 20
+      - aws 21
+      - aws 22
+      - aws 23
+      - aws 24
+      - aws 25
+      - aws 26
+      - aws 27
+      - aws 28
+      - aws 29
+      - aws 30
+      - aws 31
+      - aws 32
+      - aws 33
+      - aws 34
+      - aws 35
+      - aws 36
+      - aws 37
+      - aws 38
+      - aws 39
+      - aws 40
+      - aws 41
+      - aws 42
+      - aws 43
+      - aws 44
+      - aws 45
+      - aws 46
+      - aws 47
+      - aws 48
+      - aws 49
+      - aws 50
+      - aws 51
+      - aws 52
+      - aws 53
+      - aws 54
+      - aws 55
+      - aws 56
+      - aws 57
+      - aws 58
+      - aws 59
+      - aws 60
+      - aws 61
+      - aws 62
+      - aws 63
+      - aws 64
+      - aws 65
+      - aws 66
+      - aws 67
+      - aws 68
+      - aws 69
+      - aws 70
+      - aws 71
+      - aws 72
+      - aws 73
+      - aws 74
+      - aws 75
+      - aws 76
+      - aws 77
+      - aws 78
+      - aws 79
+      - aws 80
+      - aws 81
+      - aws 82
+      - aws 83
+      - aws 84
+      - aws 85
+      - aws 86
+      - aws 87
+      - aws 88
+      - aws 89
+      - aws 90
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -59,6 +211,82 @@ proxy-groups:
       - aws 12
       - aws 13
       - aws 14
+      - aws 15
+      - aws 16
+      - aws 17
+      - aws 18
+      - aws 19
+      - aws 20
+      - aws 21
+      - aws 22
+      - aws 23
+      - aws 24
+      - aws 25
+      - aws 26
+      - aws 27
+      - aws 28
+      - aws 29
+      - aws 30
+      - aws 31
+      - aws 32
+      - aws 33
+      - aws 34
+      - aws 35
+      - aws 36
+      - aws 37
+      - aws 38
+      - aws 39
+      - aws 40
+      - aws 41
+      - aws 42
+      - aws 43
+      - aws 44
+      - aws 45
+      - aws 46
+      - aws 47
+      - aws 48
+      - aws 49
+      - aws 50
+      - aws 51
+      - aws 52
+      - aws 53
+      - aws 54
+      - aws 55
+      - aws 56
+      - aws 57
+      - aws 58
+      - aws 59
+      - aws 60
+      - aws 61
+      - aws 62
+      - aws 63
+      - aws 64
+      - aws 65
+      - aws 66
+      - aws 67
+      - aws 68
+      - aws 69
+      - aws 70
+      - aws 71
+      - aws 72
+      - aws 73
+      - aws 74
+      - aws 75
+      - aws 76
+      - aws 77
+      - aws 78
+      - aws 79
+      - aws 80
+      - aws 81
+      - aws 82
+      - aws 83
+      - aws 84
+      - aws 85
+      - aws 86
+      - aws 87
+      - aws 88
+      - aws 89
+      - aws 90
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -79,6 +307,82 @@ proxy-groups:
       - aws 12
       - aws 13
       - aws 14
+      - aws 15
+      - aws 16
+      - aws 17
+      - aws 18
+      - aws 19
+      - aws 20
+      - aws 21
+      - aws 22
+      - aws 23
+      - aws 24
+      - aws 25
+      - aws 26
+      - aws 27
+      - aws 28
+      - aws 29
+      - aws 30
+      - aws 31
+      - aws 32
+      - aws 33
+      - aws 34
+      - aws 35
+      - aws 36
+      - aws 37
+      - aws 38
+      - aws 39
+      - aws 40
+      - aws 41
+      - aws 42
+      - aws 43
+      - aws 44
+      - aws 45
+      - aws 46
+      - aws 47
+      - aws 48
+      - aws 49
+      - aws 50
+      - aws 51
+      - aws 52
+      - aws 53
+      - aws 54
+      - aws 55
+      - aws 56
+      - aws 57
+      - aws 58
+      - aws 59
+      - aws 60
+      - aws 61
+      - aws 62
+      - aws 63
+      - aws 64
+      - aws 65
+      - aws 66
+      - aws 67
+      - aws 68
+      - aws 69
+      - aws 70
+      - aws 71
+      - aws 72
+      - aws 73
+      - aws 74
+      - aws 75
+      - aws 76
+      - aws 77
+      - aws 78
+      - aws 79
+      - aws 80
+      - aws 81
+      - aws 82
+      - aws 83
+      - aws 84
+      - aws 85
+      - aws 86
+      - aws 87
+      - aws 88
+      - aws 89
+      - aws 90
   - name: 📲 电报信息
     type: select
     proxies:
@@ -98,6 +402,82 @@ proxy-groups:
       - aws 12
       - aws 13
       - aws 14
+      - aws 15
+      - aws 16
+      - aws 17
+      - aws 18
+      - aws 19
+      - aws 20
+      - aws 21
+      - aws 22
+      - aws 23
+      - aws 24
+      - aws 25
+      - aws 26
+      - aws 27
+      - aws 28
+      - aws 29
+      - aws 30
+      - aws 31
+      - aws 32
+      - aws 33
+      - aws 34
+      - aws 35
+      - aws 36
+      - aws 37
+      - aws 38
+      - aws 39
+      - aws 40
+      - aws 41
+      - aws 42
+      - aws 43
+      - aws 44
+      - aws 45
+      - aws 46
+      - aws 47
+      - aws 48
+      - aws 49
+      - aws 50
+      - aws 51
+      - aws 52
+      - aws 53
+      - aws 54
+      - aws 55
+      - aws 56
+      - aws 57
+      - aws 58
+      - aws 59
+      - aws 60
+      - aws 61
+      - aws 62
+      - aws 63
+      - aws 64
+      - aws 65
+      - aws 66
+      - aws 67
+      - aws 68
+      - aws 69
+      - aws 70
+      - aws 71
+      - aws 72
+      - aws 73
+      - aws 74
+      - aws 75
+      - aws 76
+      - aws 77
+      - aws 78
+      - aws 79
+      - aws 80
+      - aws 81
+      - aws 82
+      - aws 83
+      - aws 84
+      - aws 85
+      - aws 86
+      - aws 87
+      - aws 88
+      - aws 89
+      - aws 90
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -117,6 +497,82 @@ proxy-groups:
       - aws 12
       - aws 13
       - aws 14
+      - aws 15
+      - aws 16
+      - aws 17
+      - aws 18
+      - aws 19
+      - aws 20
+      - aws 21
+      - aws 22
+      - aws 23
+      - aws 24
+      - aws 25
+      - aws 26
+      - aws 27
+      - aws 28
+      - aws 29
+      - aws 30
+      - aws 31
+      - aws 32
+      - aws 33
+      - aws 34
+      - aws 35
+      - aws 36
+      - aws 37
+      - aws 38
+      - aws 39
+      - aws 40
+      - aws 41
+      - aws 42
+      - aws 43
+      - aws 44
+      - aws 45
+      - aws 46
+      - aws 47
+      - aws 48
+      - aws 49
+      - aws 50
+      - aws 51
+      - aws 52
+      - aws 53
+      - aws 54
+      - aws 55
+      - aws 56
+      - aws 57
+      - aws 58
+      - aws 59
+      - aws 60
+      - aws 61
+      - aws 62
+      - aws 63
+      - aws 64
+      - aws 65
+      - aws 66
+      - aws 67
+      - aws 68
+      - aws 69
+      - aws 70
+      - aws 71
+      - aws 72
+      - aws 73
+      - aws 74
+      - aws 75
+      - aws 76
+      - aws 77
+      - aws 78
+      - aws 79
+      - aws 80
+      - aws 81
+      - aws 82
+      - aws 83
+      - aws 84
+      - aws 85
+      - aws 86
+      - aws 87
+      - aws 88
+      - aws 89
+      - aws 90
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -136,6 +592,82 @@ proxy-groups:
       - aws 12
       - aws 13
       - aws 14
+      - aws 15
+      - aws 16
+      - aws 17
+      - aws 18
+      - aws 19
+      - aws 20
+      - aws 21
+      - aws 22
+      - aws 23
+      - aws 24
+      - aws 25
+      - aws 26
+      - aws 27
+      - aws 28
+      - aws 29
+      - aws 30
+      - aws 31
+      - aws 32
+      - aws 33
+      - aws 34
+      - aws 35
+      - aws 36
+      - aws 37
+      - aws 38
+      - aws 39
+      - aws 40
+      - aws 41
+      - aws 42
+      - aws 43
+      - aws 44
+      - aws 45
+      - aws 46
+      - aws 47
+      - aws 48
+      - aws 49
+      - aws 50
+      - aws 51
+      - aws 52
+      - aws 53
+      - aws 54
+      - aws 55
+      - aws 56
+      - aws 57
+      - aws 58
+      - aws 59
+      - aws 60
+      - aws 61
+      - aws 62
+      - aws 63
+      - aws 64
+      - aws 65
+      - aws 66
+      - aws 67
+      - aws 68
+      - aws 69
+      - aws 70
+      - aws 71
+      - aws 72
+      - aws 73
+      - aws 74
+      - aws 75
+      - aws 76
+      - aws 77
+      - aws 78
+      - aws 79
+      - aws 80
+      - aws 81
+      - aws 82
+      - aws 83
+      - aws 84
+      - aws 85
+      - aws 86
+      - aws 87
+      - aws 88
+      - aws 89
+      - aws 90
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -156,6 +688,82 @@ proxy-groups:
       - aws 12
       - aws 13
       - aws 14
+      - aws 15
+      - aws 16
+      - aws 17
+      - aws 18
+      - aws 19
+      - aws 20
+      - aws 21
+      - aws 22
+      - aws 23
+      - aws 24
+      - aws 25
+      - aws 26
+      - aws 27
+      - aws 28
+      - aws 29
+      - aws 30
+      - aws 31
+      - aws 32
+      - aws 33
+      - aws 34
+      - aws 35
+      - aws 36
+      - aws 37
+      - aws 38
+      - aws 39
+      - aws 40
+      - aws 41
+      - aws 42
+      - aws 43
+      - aws 44
+      - aws 45
+      - aws 46
+      - aws 47
+      - aws 48
+      - aws 49
+      - aws 50
+      - aws 51
+      - aws 52
+      - aws 53
+      - aws 54
+      - aws 55
+      - aws 56
+      - aws 57
+      - aws 58
+      - aws 59
+      - aws 60
+      - aws 61
+      - aws 62
+      - aws 63
+      - aws 64
+      - aws 65
+      - aws 66
+      - aws 67
+      - aws 68
+      - aws 69
+      - aws 70
+      - aws 71
+      - aws 72
+      - aws 73
+      - aws 74
+      - aws 75
+      - aws 76
+      - aws 77
+      - aws 78
+      - aws 79
+      - aws 80
+      - aws 81
+      - aws 82
+      - aws 83
+      - aws 84
+      - aws 85
+      - aws 86
+      - aws 87
+      - aws 88
+      - aws 89
+      - aws 90
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -192,6 +800,82 @@ proxy-groups:
       - aws 12
       - aws 13
       - aws 14
+      - aws 15
+      - aws 16
+      - aws 17
+      - aws 18
+      - aws 19
+      - aws 20
+      - aws 21
+      - aws 22
+      - aws 23
+      - aws 24
+      - aws 25
+      - aws 26
+      - aws 27
+      - aws 28
+      - aws 29
+      - aws 30
+      - aws 31
+      - aws 32
+      - aws 33
+      - aws 34
+      - aws 35
+      - aws 36
+      - aws 37
+      - aws 38
+      - aws 39
+      - aws 40
+      - aws 41
+      - aws 42
+      - aws 43
+      - aws 44
+      - aws 45
+      - aws 46
+      - aws 47
+      - aws 48
+      - aws 49
+      - aws 50
+      - aws 51
+      - aws 52
+      - aws 53
+      - aws 54
+      - aws 55
+      - aws 56
+      - aws 57
+      - aws 58
+      - aws 59
+      - aws 60
+      - aws 61
+      - aws 62
+      - aws 63
+      - aws 64
+      - aws 65
+      - aws 66
+      - aws 67
+      - aws 68
+      - aws 69
+      - aws 70
+      - aws 71
+      - aws 72
+      - aws 73
+      - aws 74
+      - aws 75
+      - aws 76
+      - aws 77
+      - aws 78
+      - aws 79
+      - aws 80
+      - aws 81
+      - aws 82
+      - aws 83
+      - aws 84
+      - aws 85
+      - aws 86
+      - aws 87
+      - aws 88
+      - aws 89
+      - aws 90
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2088,6 +2772,7 @@ rules:
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
  - DOMAIN-SUFFIX,amazontools.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,amazontours.com,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
@@ -2301,7 +2986,6 @@ rules:
  - DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
  - DOMAIN-KEYWORD,openai,🌍 国外媒体
- - DOMAIN-SUFFIX,ai.com,🌍 国外媒体
  - DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
  - DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
  - DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
@@ -2679,7 +3363,6 @@ rules:
  - IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
  - DOMAIN-SUFFIX,openai.com,🚀 节点选择
  - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
- - DOMAIN-SUFFIX,ai.com,🚀 节点选择
  - DOMAIN-KEYWORD,1drv,🚀 节点选择
  - DOMAIN-KEYWORD,onedrive,🚀 节点选择
  - DOMAIN-KEYWORD,skydrive,🚀 节点选择
@@ -2909,9 +3592,6 @@ rules:
  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
  - DOMAIN-SUFFIX,im9.com,🎯 全球直连
  - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
- - DOMAIN-SUFFIX,battle.net,🎯 全球直连
- - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
- - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
  - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
  - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
